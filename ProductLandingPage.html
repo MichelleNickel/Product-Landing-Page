@@ -7,9 +7,15 @@
     <body class="container">
         <header id="header">
             <!-- insert image (Logo) with id: id="header-image" -->
+            <img id="logo" src="img/Aperture_Laboratories.jpg" alt="Logo of Aperture Science Laboratories" width="400px">
             <nav id="nav-bar"> <!-- has to always be at the top of the viewport -->
                 <!-- clickable navelements all with class="nav-link"
                 when navpoint clicked, it should take you to the navigation subjects. -->
+                <ul>
+                    <li>About us</li>
+                    <li>Products</li>
+                    <li>Newsletter</li>
+                </ul>
             </nav>
         </header>
         <main>
@@ -18,13 +24,21 @@
                 src="https://www.youtube.com/watch?v=GJDNkVDGM_sautoplay=1&mute=1">
             </iframe>
 
+            <div id="product-info">
+                <p>
+                    this should be the product info segment. maybe make some flex-box stuff here.
+                </p>
             <!-- Class Productinfo? 
                 bilder, mit flexbox stylen -->
+            </div>
 
             <form id="form">
                 <input id="email" type="text" placeholder="enter email pls"> <!-- uses html5 to confirm email validity -->
                 <input id="submit" type="submit"> <!-- when clicked, goto https://www.freecodecamp.com/email-submit -->
             </form>
         </main>
+        <footer id="footer">
+            <!-- information like impressum, kontact etc-->
+        </footer>
     </body>
 </html>

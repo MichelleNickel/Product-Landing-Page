@@ -1,1 +1,28 @@
-# ProductLandingPage
+# **ProductLandingPage**
+
+### Sources: 
+Aperture Science Logo: "https://www.pngwing.com/en/search?q=aperture+Science+Logo"
+Shoes1: "http://happyvalentinesday2020.online/chell-portal-2-boots-b660.SHTML"
+Shoes2: "https://www.pcgamer.com/valve-releases-portal-2-long-fall-boots-video/"
+Shoes3: "https://alcariacosplay.com/propscontent/chells-portal-2-long-fall-boots"
+Gun1: "https://half-life.fandom.com/wiki/Aperture_Science_Handheld_Portal_Device"
+Gun2: "https://necaonline.com/2012/02/yes-we-are-making-a-life-size-portal-gun-replica-here-are-the-details/"
+Gun3: "https://www.pinterest.de/pin/328129522822096503/"
+Gun4: "https://www.volpinprops.com/product/portal-gun-blueprint-poster/"
+Gun5: "https://imgur.com/r/gaming/tk7pW"
+Gun6: "https://half-life.fandom.com/wiki/Aperture_Science_Handheld_Portal_Device"
+PotatoGun: "https://www.flickr.com/photos/volpinprops/5713815291"
+Turret1: "https://www.pngfind.com/mpng/TRTwix_are-you-still-there-portals-portal-turret-png/"
+Turret2: "https://www.pngegg.com/en/png-yfxbc"
+Turret3: "https://www.pinterest.de/pin/618611698820415179/"
+Gel1: "https://www.reddit.com/r/Portal/comments/hq25ha/portal_2_gels/"
+Gel2: "https://www.reddit.com/r/Portal/comments/hp1jix/portal_2_gels_i_made/"
+Gel3: "https://theawesomer.com/portal-2-gels/109113/"
+Gel4: "https://portal-2-propulsion-gel24204.peatix.com"
+Gel5: "http://blog.ocad.ca/wordpress/vism2b15-fw2011-01/2011/09/portal-2-gels/"
+Gel6: "http://blog.ocad.ca/wordpress/vism2b15-fw2011-01/2011/09/portal-2-gels/"
+Gel7: "http://blog.ocad.ca/wordpress/vism2b15-fw2011-01/2011/09/portal-2-gels/"
+Gel8: "https://www.moddb.com/mods/apertures-hour/images/60s-repulsion-gel-comparison"
+Radio1: "https://www.artstation.com/artwork/B1o114"
+Radio2: "https://www.pinterest.de/pin/539517230339705628/"
+Radio3: "https://www.youtube.com/watch?v=2vyFUKB_b3s" Thumbnail
