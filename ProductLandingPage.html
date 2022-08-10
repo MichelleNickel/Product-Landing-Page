@@ -14,9 +14,10 @@
             {
                 .container {
                     display: grid;
-                    height: 100vh;
+                    min-height: 100vh;
+                    overflow-y: scroll;
                     grid-template-columns: 1fr;
-                    grid-template-rows: 0.4fr 1.5fr 1.2fr 1.2fr 1.2fr 0.3fr;
+                    grid-template-rows: 0.4fr 1.5fr 1.2fr 1.2fr 1.2fr 0.3fr 0.3fr;
                     background-color: grey;
                     gap: 5px;
                     padding: 0.4em;
@@ -26,6 +27,7 @@
                     "content1"
                     "content2"
                     "content3"
+                    "form"
                     "footer";
                 }
             }
@@ -33,9 +35,10 @@
             {
                 .container {
                     display: grid;
-                    height: 100vh;
+                    min-height: 100vh;
+                    overflow-y: scroll;
                     grid-template-columns: 1fr;
-                    grid-template-rows: 0.4fr 1.5fr 1.2fr 1.2fr 1.2fr 0.3fr;
+                    grid-template-rows: 0.4fr 1.5fr 1.2fr 1.2fr 1.2fr 0.3fr 0.3fr;
                     background-color: grey;
                     gap: 5px;
                     padding: 0.4em;
@@ -45,16 +48,18 @@
                     "content1"
                     "content2"
                     "content3"
+                    "form"
                     "footer";
                 }
             }
-            @media only screen and (min-width: 481px) and (max-width: 767px) and (orientation: landscape)/*Low Resolution Tablets and iPads*/
+            /*@media only screen and (min-width: 481px) and (max-width: 767px) and (orientation: landscape)/*Low Resolution Tablets and iPads*
             {
                 .container {
                     display: grid;
-                    height: 100vh;
+                    min-height: 100vh;
+                    overflow-y: scroll;
                     grid-template-columns: 1fr 1fr 1fr 1fr;
-                    grid-template-rows: 0.4fr 1.2fr 1.2fr 1.2fr 0.3fr;
+                    grid-template-rows: 0.4fr 1.2fr 1.2fr 1.2fr 0.3fr 0.3fr;
                     background-color: grey;
                     gap: 5px;
                     padding: 0.4em;
@@ -63,16 +68,19 @@
                     "info content1 content1 content1"
                     "info content2 content2 content2"
                     "info content3 content3 content3"
+                    "info form form foorm"
                     "footer footer footer footer";
                 }
             }
-            @media only screen and (min-width: 481px) and (max-width: 767px) and (orientation: portrait)/*Low Resolution Tablets and iPads*/
+            */
+            @media only screen and (min-width: 481px) and (max-width: 767px)/*Low Resolution Tablets and iPads*/
             {
                 .container {
                     display: grid;
-                    height: 100vh;
+                    min-height: 100vh;
+                    overflow-y: scroll;
                     grid-template-columns: 1fr;
-                    grid-template-rows: 0.4fr 1.5fr 1.2fr 1.2fr 1.2fr 0.3fr;
+                    grid-template-rows: 0.4fr 1.5fr 1.2fr 1.2fr 1.2fr 0.5fr 0.3fr;
                     background-color: grey;
                     gap: 5px;
                     padding: 0.4em;
@@ -82,6 +90,7 @@
                     "content1"
                     "content2"
                     "content3"
+                    "form"
                     "footer";
                 }
             }
@@ -89,9 +98,10 @@
             {
                 .container {
                     display: grid;
-                    height: 100vh;
+                    min-height: 100vh;
+                    overflow-y: scroll;
                     grid-template-columns: 1fr 1fr 1fr;
-                    grid-template-rows: 0.4fr 1.2fr 1.5fr 0.3fr;
+                    grid-template-rows: 0.4fr 1.2fr 1.5fr 0.5fr 0.3fr;
                     background-color: grey;
                     gap: 5px;
                     padding: 0.4em;
@@ -99,6 +109,7 @@
                     "header header header"
                     "info info info"
                     "content1 content2 content3"
+                    "form form form"
                     "footer footer footer";
                 }
             }
@@ -106,9 +117,10 @@
             {
                 .container {
                     display: grid;
-                    height: 100vh;
+                    min-height: 100vh;
+                    overflow-y: scroll;
                     grid-template-columns: 1fr;
-                    grid-template-rows: 0.4fr 1.5fr 1.2fr 1.2fr 1.2fr 0.3fr;
+                    grid-template-rows: 0.4fr 1.5fr 1.2fr 1.2fr 1.2fr 0.5fr 0.3fr;
                     background-color: grey;
                     gap: 5px;
                     padding: 0.4em;
@@ -118,6 +130,7 @@
                     "content1"
                     "content2"
                     "content3"
+                    "form"
                     "footer";
                 }
             }
@@ -125,9 +138,10 @@
             {
                 .container {
                     display: grid;
-                    height: 100vh;
+                    min-height: 100vh;
+                    overflow-y: scroll;
                     grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
-                    grid-template-rows: 0.4fr 1.5fr 1.2fr 0.3fr;
+                    grid-template-rows: 0.4fr 1.5fr 1.2fr 0.2fr 0.3fr;
                     background-color: grey;
                     gap: 5px;
                     padding: 1em;
@@ -135,22 +149,37 @@
                     "header header header header header"
                     ". info info info ."
                     ". content1 content2 content3 ."
+                    ". form form form ."
                     "footer footer footer footer footer";
+                }
+                #info-details {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px;
+                }
+                #welcome {
+                    width: 50%;
+                }
+                #video {
+                    width: 50%;
                 }
             }
             @media only screen and (min-width: 1921px) /*huge Desktops*/
             {
                 .container {
                     display: grid;
-                    height: 100vh;
+                    min-height: 100vh;
+                    overflow-y: scroll;
                     grid-template-columns: 1fr 0.5fr 1fr 1fr 1fr 0.5fr;
-                    grid-template-rows: 0.4fr 2.7fr 0.3fr;
+                    grid-template-rows: 0.4fr 2.7fr 0.5fr 0.3fr;
                     background-color: grey;
                     gap: 5px;
                     padding: 1em;
                     grid-template-areas: 
                     "header header header header header header"
                     "info . content1 content2 content3 ."
+                    "info . form form form ."
                     "info . footer footer footer .";
                 }
             }
@@ -161,10 +190,9 @@
             #info {
                 background-color: skyblue;
                 grid-area: info;
+                justify-content: center;
+                text-align: center;
             }
-            /*#sidebar {
-                background-color: aqua;
-            }*/
             #content1 {
                 background-color: aquamarine;
                 grid-area: content1;
@@ -176,6 +204,10 @@
             #content3 {
                 background-color: cyan;
                 grid-area: content3;
+            }
+            #form {
+                background-color: lemonchiffon;
+                grid-area: form;
             }
             footer {
                 background-color: darkcyan;
@@ -199,12 +231,14 @@
         <div id="info">
             <h1>Welcome to Aperture Science Laboratories, where we do what we must. <br>
             Because. We. Can!</h1>
-            <p>We here at aperture science, believe that everyone has the potential to achieve greatness! There is nothing more great than putting your life on the line for SCIENCE!
-                We are looking for capable employees and if you think you have what it takes, prove it!
-                You can order some of our special Portal<sup>TM</sup> Equipment and start testing your fiends and loved ones from the comfort of your own home.
-                Send us your video resumee with the experiments and the results and we will get back to you for suuure.
-            </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/PgwbXg0nHvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div id="info-details">
+                <p id="welcome">We here at aperture science, believe that everyone has the potential to achieve greatness! There is nothing more great than putting your life on the line for SCIENCE!
+                    We are looking for capable employees and if you think you have what it takes, prove it!
+                    You can order some of our special Portal<sup>TM</sup> Equipment and start testing your friends and loved ones from the comfort of your own home.
+                    Send us your video resumee with the experiments and the results and we will get back to you for suuure. ;)
+                </p>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/PgwbXg0nHvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
         </div>
         <!--
@@ -217,86 +251,21 @@
         <!--
             use flexbox for the content
         -->
+
+        
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label id="email-label" for="email">If you feel up to the challenge, enter your E-Mail below and we will send you the instructions to how to submit your application.</label>
+            <input id="email" type="email" name="email" placeholder="E-Mail" pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/i" required><br>
+            <input type="submit" id="submit" name="submit" value="Request Application">
+        </form>
+
         <footer>
-            <p>Aperture Science<sup>TM</sup> is not reliable for any and all injuries and/or deaths that can be a result of using the aforementioned equipment.<br>
+            <p>Aperture Science<sup>TM</sup> is not reliable for any and all injuries and/or deaths that could be a result of using the aforementioned equipment.<br>
             Use at own risk!</p>
         </footer>
-        <!--
-            <form id="form">
-                <input id="email" placeholder="email text" //html validation>
-                on #submit  send data to https://www.freecodecamp.com/email-submit
-            </form>
-        -->
     </body>
 </html>
 
 
 
-<!--
-    <div id="logo">logo</div>
-            <div id="navBar">navigation</div>
 
-
-            <header id="header">
-                <p>This was a triumph</p>
-                <div id="logo">logo</div>
-                <div id="nav-bar">navigation</div>
-            </header> 
-
-
-            -<main>
-                <div id="product-info">products</div>
-                <div id="form">form</div>
-            <</main>-->
-            <!--<footer id="footer">footer</footer>
-                <div id="footer">footer</div>
--->
-
-
-
-
-
-    <!--
-    <head>
-        <title></title>
-        <link rel="stylesheet" href="ProductLandingPage.css">  with at least one media query and use flex-box at least once 
-    </head>
-    <body class="container">
-        <header id="header">
-             insert image (Logo) with id: id="header-image" 
-            <img id="logo" src="img/Aperture_Laboratories.jpg" alt="Logo of Aperture Science Laboratories" width="400px">
-            <nav id="nav-bar">  has to always be at the top of the viewport -->
-                <!-- clickable navelements all with class="nav-link"
-                when navpoint clicked, it should take you to the navigation subjects. 
-                <ul>
-                    <li>About us</li>
-                    <li>Products</li>
-                    <li>Newsletter</li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-             embed a video with id="video" 
-            <iframe id="video" width="420" height="315"
-                src="https://www.youtube.com/watch?v=GJDNkVDGM_sautoplay=1&mute=1">
-            </iframe>
-
-            <div id="product-info">
-                <p>
-                    this should be the product info segment. maybe make some flex-box stuff here.
-                </p>
-             Class Productinfo? 
-                bilder, mit flexbox stylen 
-            </div>
-
-            <form id="form">
-                <input id="email" type="text" placeholder="enter email pls"> uses html5 to confirm email validity 
-                <input id="submit" type="submit">  when clicked, goto https://www.freecodecamp.com/email-submit 
-            </form>
-        </main>
-        <footer id="footer">
-             information like impressum, kontact etc
-        </footer>
-    </body>
-</html>
-    -->
